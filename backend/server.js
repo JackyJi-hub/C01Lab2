@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 
 const app = express();
 const PORT = 4000;
-const mongoURL = "mongodb://localhost:27018";
+const mongoURL = "mongodb://localhost:27017";
 const dbName = "quirknotes";
 
 // Connect to MongoDB
